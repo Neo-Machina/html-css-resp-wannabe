@@ -135,6 +135,7 @@ img {
 }
 
 @media screen and (max-width: 480px) {
+    /* LESSONS SECTION */
     .row {
         flex-wrap: wrap;
     }
@@ -143,7 +144,15 @@ img {
         width: 100%;
     }
 
-    .col:first-child {
+    .lessons .col:first-child {
+        margin-bottom: 70px;
+    }
+    /* STEPS SECTION */
+    .steps .col {
+        width: 100%;
+    }
+
+    .steps .col:not(:last-child) {
         margin-bottom: 70px;
     }
 }
